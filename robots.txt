@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://plopiansky.github.io/Beit-Rabenu-8200/sitemap.xml

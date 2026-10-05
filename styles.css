@@ -128,3 +128,8 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--navy); font-weight: 800
 .client h3 { color: var(--navy); }
 .visit { color: var(--blue); font-weight: 500; direction: ltr; display: inline-block; }
 .inline-link { color: var(--blue); font-weight: 700; }
+
+.narrow { width: min(820px, 100% - 32px); }
+.about-text { font-size: 1.1rem; margin-top: 16px; text-align: center; color: var(--muted); }
+.about-text strong { color: var(--navy); }
+.about-text a { color: var(--blue); font-weight: 700; }
