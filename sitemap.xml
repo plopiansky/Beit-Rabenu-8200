@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://rabenu8200.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://rabenu8200.com/clients</loc><priority>0.7</priority></url>
-  <url><loc>https://rabenu8200.com/web-development</loc><priority>0.8</priority></url>
-  <url><loc>https://rabenu8200.com/software-development</loc><priority>0.8</priority></url>
-  <url><loc>https://rabenu8200.com/app-development</loc><priority>0.8</priority></url>
-  <url><loc>https://rabenu8200.com/custom-devices</loc><priority>0.8</priority></url>
+  <url><loc>https://rabenu8200.com/</loc><lastmod>2026-10-05</lastmod><priority>1.0</priority></url>
+  <url><loc>https://rabenu8200.com/clients</loc><lastmod>2026-10-05</lastmod><priority>0.7</priority></url>
+  <url><loc>https://rabenu8200.com/web-development</loc><lastmod>2026-10-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rabenu8200.com/software-development</loc><lastmod>2026-10-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rabenu8200.com/app-development</loc><lastmod>2026-10-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://rabenu8200.com/custom-devices</loc><lastmod>2026-10-05</lastmod><priority>0.8</priority></url>
 </urlset>
