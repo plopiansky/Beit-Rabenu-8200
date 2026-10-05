@@ -14,7 +14,7 @@ menu.addEventListener("click", (e) => {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// Sends the form to FormSubmit (https://formsubmit.co). Without JS the form posts normally to the same endpoint.
+// Sends the form to Web3Forms (https://web3forms.com). Without JS the form posts normally to the same endpoint.
 const form = document.getElementById("contact-form");
 const msg = document.getElementById("form-msg");
 
@@ -25,13 +25,13 @@ form.addEventListener("submit", async (e) => {
   msg.style.color = "";
   msg.textContent = "שולח...";
   try {
-    const res = await fetch("https://formsubmit.co/ajax/xowomu", {
+    const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: { Accept: "application/json" },
       body: new FormData(form),
     });
     const data = await res.json();
-    if (!res.ok || data.success === "false" || data.success === false) throw new Error(data.message);
+    if (!res.ok || !data.success) throw new Error(data.message);
     msg.textContent = "תודה! קיבלנו את הפנייה ונחזור אליכם בהקדם.";
     form.reset();
   } catch (err) {
