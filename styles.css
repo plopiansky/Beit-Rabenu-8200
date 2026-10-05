@@ -133,3 +133,17 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--navy); font-weight: 800
 .about-text { font-size: 1.1rem; margin-top: 16px; text-align: center; color: var(--muted); }
 .about-text strong { color: var(--navy); }
 .about-text a { color: var(--blue); font-weight: 700; }
+
+/* Service pages */
+.icon.big { width: 72px; height: 72px; font-size: 2.4rem; margin: 0 auto 16px; }
+.page-hero .btn { margin-top: 20px; }
+.h2-sm { font-size: 1.5rem; margin: 40px 0 20px; }
+.checks.wide li { font-size: 1.05rem; }
+.card h3 a { text-decoration: none; color: inherit; }
+.card h3 a:hover { color: var(--blue); }
+.faq details { background: #fff; border: 1px solid #e9f0f8; border-radius: 12px; padding: 16px 20px; margin-bottom: 12px; box-shadow: var(--shadow); }
+.faq summary { cursor: pointer; font-weight: 700; color: var(--navy); }
+.faq details p { margin-top: 10px; color: var(--muted); }
+.more { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.more a { text-decoration: none; background: var(--alt); color: var(--navy); font-weight: 500; padding: 10px 20px; border-radius: 999px; border: 1px solid #dbe9f6; }
+.more a:hover { border-color: var(--blue); color: var(--blue); }
