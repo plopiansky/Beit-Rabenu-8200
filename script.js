@@ -12,13 +12,14 @@ menu.addEventListener("click", (e) => {
   }
 });
 
-document.getElementById("year").textContent = new Date().getFullYear();
+const yr = document.getElementById("year");
+if (yr) yr.textContent = new Date().getFullYear();
 
 // Sends the form to Web3Forms (https://web3forms.com). Without JS the form posts normally to the same endpoint.
 const form = document.getElementById("contact-form");
 const msg = document.getElementById("form-msg");
 
-form.addEventListener("submit", async (e) => {
+if (form) form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const btn = form.querySelector("button");
   btn.disabled = true;
